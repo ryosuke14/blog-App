@@ -139,7 +139,7 @@
             </h2>
             <p class="mb-0">取り上げて欲しいニュースや時事ネタなどメッセ―ジお待ちしております！！</p>
             <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            <a class="btn btn-primary btn-xl" href="#">Message form</a>
           </div>
           </div>
         </div>
