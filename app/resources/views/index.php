@@ -58,16 +58,26 @@
     </div>
   </nav>
 
+  <div class="container">
+  <h5 style="color:#C0C0C0; line-height:1.5;">このチャンネルでは２０代の３人が政治や最新のニュースなどをできるだけわかりやすく噛み砕き、
+考察していくチャンネルです。
+取り上げて欲しい話題などございましたらYouTube・Twitterへコメントをお願いいたします！
+これからもYouTube・Twitterでたくさん発信していくので応援をお願いいたします！
+</h5>
+ </div>
+
+
+
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
         <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro-1.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Fresh Coffee</span>
-            <span class="section-heading-lower">Worth Drinking</span>
+            <span class="section-heading-upper">okkun channel</span>
+            <span class="section-heading-lower">Shin Miura</span>
           </h2>
-          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+          <p class="mb-3">政治や最新のニュースの正確な情報は、ただ待っているだけでは収集出来ない状況が今の日本だと思います。　このチャンネルを通じて多くの人へ正確な情報を伝えていきます！
           </p>
           <div class="intro-button mx-auto">
             <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
@@ -77,16 +87,17 @@
     </div>
   </section>
 
-  <section class="page-section clearfix">
+    <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro-1.jpg" alt="">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro-2.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Fresh Coffee</span>
-            <span class="section-heading-lower">Worth Drinking</span>
+            <span class="section-heading-upper">okkun channel</span>
+            <span class="section-heading-lower">Takeru Fuse</span>
           </h2>
-          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+          <p class="mb-3">政治のニュースは難しいという先入観をもっている人も多く、もっと身近に感じてもらえる環境をこのチャンネルを通じて
+            発信して行きます！
           </p>
           <div class="intro-button mx-auto">
             <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
@@ -96,16 +107,17 @@
     </div>
   </section>
 
+
   <section class="page-section clearfix">
     <div class="container">
       <div class="intro">
-        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro.jpg" alt="">
+        <img class="intro-img img-fluid mb-3 mb-lg-0 rounded" src="img/intro-4.jpg" alt="">
         <div class="intro-text left-0 text-center bg-faded p-5 rounded">
           <h2 class="section-heading mb-4">
-            <span class="section-heading-upper">Fresh Coffee</span>
-            <span class="section-heading-lower">Worth Drinking</span>
+            <span class="section-heading-upper">okkun channel</span>
+            <span class="section-heading-lower">Ryosuke Yazawa</span>
           </h2>
-          <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+          <p class="mb-3">政治や最新のニュースをもっと多角的に見る必要があると思っています。日頃、目にするニュースは偏った報道・ねじ曲がった事実は多く存在しる現状です。このチャンネルでは様々なニュースを多方面から考察して多くの人へ発信していこうと思います！
           </p>
           <div class="intro-button mx-auto">
             <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
@@ -122,10 +134,13 @@
         <div class="col-xl-9 mx-auto">
           <div class="cta-inner text-center rounded">
             <h2 class="section-heading mb-4">
-              <span class="section-heading-upper">Our Promise</span>
-              <span class="section-heading-lower">To You</span>
+              <span class="section-heading-upper">Message</span>
+              <span class="section-heading-lower">To Us</span>
             </h2>
-            <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+            <p class="mb-0">取り上げて欲しいニュースや時事ネタなどメッセ―ジお待ちしております！！</p>
+            <div class="intro-button mx-auto">
+            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+          </div>
           </div>
         </div>
       </div>
