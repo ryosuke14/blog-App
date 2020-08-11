@@ -26,21 +26,21 @@
 <body>
 
   <h1 class="site-heading text-center text-white d-none d-lg-block">
-    <span class="site-heading-upper text-primary mb-3">The best way to predict the future is to create it.</span>
+    <span class="site-heading-upper text-primary mb-3">２０代の３人が作り上げる政治に特化したチャンネル!!</span>
     <span class="site-heading-lower">おっくんの政治チャンネル</span>
   </h1>
 
   <!-- Navigation -->
   <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
     <div class="container">
-      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
+      <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">おっくんの政治チャンネル</a>
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse" id="navbarResponsive">
         <ul class="navbar-nav mx-auto">
           <li class="nav-item active px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="index.html">Home
+            <a class="nav-link text-uppercase text-expanded" href="#">Home
               <span class="sr-only">(current)</span>
             </a>
           </li>
@@ -59,11 +59,13 @@
   </nav>
 
   <div class="container">
-  <h5 style="color:#C0C0C0; line-height:1.5;">このチャンネルでは２０代の３人が政治や最新のニュースなどをできるだけわかりやすく噛み砕き、
-考察していくチャンネルです。
-取り上げて欲しい話題などございましたらYouTube・Twitterへコメントをお願いいたします！
-これからもYouTube・Twitterでたくさん発信していくので応援をお願いいたします！
-</h5>
+    <h5 class="" style="color:#C0C0C0; line-height:2.0; text-align: center; padding-top: 30px; font-weight: bold;">
+      このチャンネルでは２０代の３人が政治や最新のニュースなどをできるだけわかりやすく噛み砕き、考察していきます。
+      <br>
+      取り上げて欲しい話題などございましたらYouTube・Twitterへコメントをお願い致します！
+      <br>
+      これからもYouTube・Twitterでたくさん発信していくので応援をお願い致します！
+    </h5>
  </div>
 
 
