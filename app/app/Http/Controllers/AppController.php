@@ -10,4 +10,14 @@ class AppController extends Controller
     {
         return view('index');
     }
+
+    public function contact()
+    {
+        return view('contact');
+    }
+
+    public function check(Request $request)
+    {
+        return view('check');
+    }
 }
