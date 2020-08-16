@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-おっくんお政治チャンネルHOME
+おっくんお政治チャンネルHOME 
 @endsection
 
 @section('content')

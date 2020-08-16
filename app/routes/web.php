@@ -17,3 +17,15 @@ Route::get('/', 'AppController@index')->name('index');
 Route::get('/contact', 'AppController@contact')->name('contact');
 Route::post('/check', 'AppController@check')->name('check');
 
+Route::get('/', 'AppController@index')->name('index');
+
+
+
+Route::get('/blogpost', function(){
+    return view('blog/blogpost');
+});
+
+Route::get('/blog', function(){
+    return view('blog/index');
+});
+
