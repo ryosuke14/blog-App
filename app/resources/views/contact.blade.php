@@ -39,12 +39,22 @@
   </nav>
   <hr>
   <form action="{{ route('check') }}" method="post" style="text-align: center;">
-    <p class="contact">件名</p>
-    <input type="text" name="title">
-    <p class="contact">本文</p>
-    <textarea name="text" cols="30" rows="10"></textarea>
-    <br>
-    <input type="submit" value="送信">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <p class="contact">件名</p>
+                <textarea name="title" cols="50" rows="1"></textarea>
+            </div>
+            <div class="col-12">
+                <p class="contact">本文</p>
+                <textarea name="text" cols="50" rows="20"></textarea>
+            </div>
+            <br>
+            <div class="col-12">
+                <input type="submit" value="送信">
+            </div>
+        </div>
+    </div>
   </form>
   <hr>
   <style>

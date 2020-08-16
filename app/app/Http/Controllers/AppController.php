@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Http\Requests\ContactRequest;
 
 class AppController extends Controller
 {
@@ -11,7 +12,7 @@ class AppController extends Controller
         return view('index');
     }
 
-    public function contact()
+    public function contact(ContactRequest $request)
     {
         return view('contact');
     }
