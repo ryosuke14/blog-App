@@ -19,6 +19,8 @@ Route::post('/check', 'AppController@check')->name('check');
 
 Route::get('/', 'AppController@index')->name('index');
 Route::get('/blog', 'AppController@blog')->name('blog');
+Route::get('/blogpost', 'AppController@blogpost')->name('blogpost');
+
 
 /*
 Route::get('/blogpost', function(){

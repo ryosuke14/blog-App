@@ -33,7 +33,7 @@
             <a class="nav-link text-uppercase text-expanded" href="https://twitter.com/CQ5SXmczvr8BzkE">Twitter</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="{{ route('blog') }}">Blog</a>
+            <a class="nav-link text-uppercase text-expanded" href="{{ route('blogpost') }}">Blog</a>
           </li>
         </ul>
       </div>

@@ -27,5 +27,11 @@ class AppController extends Controller
         return view('blog.index');
     }
 
+    public function blogpost(Request $request)
+    {
+        return view('blog.blogpost');
+    }
+
+
 
 }

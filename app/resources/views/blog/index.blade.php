@@ -1,23 +1,11 @@
 
-<!DOCTYPE html>
-<html lang="en">
+@extends('layouts.base')
 
-<head>
+@section('title')
+政治ニュースBlog
+@endsection
 
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <meta name="description" content="">
-  <meta name="author" content="">
-
-  <title>Blog Home - Start Bootstrap Template</title>
-
-  <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-  <!-- Custom styles for this template -->
-  <link href="css/blog-home.css" rel="stylesheet">
-
-</head>
+@section('content')
 
 <body>
 
@@ -67,7 +55,7 @@
           <div class="card-body">
             <h2 class="card-title">Post Title</h2>
             <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis aliquid atque, nulla? Quos cum ex quis soluta, a laboriosam. Dicta expedita corporis animi vero voluptate voluptatibus possimus, veniam magni quis!</p>
-            <a href="#" class="btn btn-primary">Read More &rarr;</a>
+            <a href="{{ route('blogpost') }}" class="btn btn-primary">Read More &rarr;</a>
           </div>
           <div class="card-footer text-muted">
             Posted on January 1, 2020 by
@@ -197,3 +185,5 @@
 </body>
 
 </html>
+
+@endsection
