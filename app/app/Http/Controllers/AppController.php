@@ -21,4 +21,11 @@ class AppController extends Controller
     {
         return view('check');
     }
+
+    public function blog(Request $request)
+    {
+        return view('blog.index');
+    }
+
+
 }
