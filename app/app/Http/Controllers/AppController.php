@@ -12,7 +12,8 @@ class AppController extends Controller
         return view('index');
     }
 
-    public function contact(ContactRequest $request)
+
+    public function contact2(ContactRequest $request)
     {
         return view('contact');
     }
