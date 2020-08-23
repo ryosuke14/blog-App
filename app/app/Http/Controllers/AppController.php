@@ -4,6 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactRequest;
+use App\Contact;
 
 class AppController extends Controller
 {
@@ -24,8 +25,11 @@ class AppController extends Controller
         return view('check', ['inputs' => $inputs]);
     }
 
-    public function complete(ContactRequest $request)
+    public function complete(ContactRequest $request, Contact $contact)
     {
+        $contact->title = $request->title;
+        $contact->text = $request->text;
+        $contact->save();
         return view('complete');
     }
 
