@@ -14,7 +14,8 @@ class AppController extends Controller
 
     public function contact(ContactRequest $request)
     {
-        return view('contact');
+        $inputs = $request->all();
+        return view('contact', ['inputs' => $inputs]);
     }
 
     public function check(Request $request)

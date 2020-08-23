@@ -40,14 +40,14 @@
   <hr>
   <form action="{{ route('check') }}" method="post" style="text-align: center;">
     <div class="container">
-        <div class="row">
+        <d  iv class="row">
             <div class="col-12">
                 <p class="contact">件名</p>
-                <textarea name="title" cols="50" rows="1"></textarea>
+                <textarea name="title" cols="50" rows="1" value="{{ $inputs['title'] }}"></textarea>
             </div>
             <div class="col-12">
                 <p class="contact">本文</p>
-                <textarea name="text" cols="50" rows="20"></textarea>
+                <textarea name="text" cols="50" rows="20" value="{{ $inputs('text') }}"></textarea>
             </div>
             <br>
             <div class="col-12">
