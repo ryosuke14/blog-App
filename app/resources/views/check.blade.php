@@ -5,6 +5,10 @@
 @endsection
 
 @section('content')
+<h1 class="site-heading text-center text-white d-none d-lg-block">
+  <span class="site-heading-upper text-primary mb-3"></span>
+  <span class="site-heading-lower">お問い合わせの確認</span>
+</h1>
 
 <!-- Navigation -->
 <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
@@ -32,9 +36,39 @@
         </ul>
       </div>
     </div>
-
-     <form action="">
-        <input type="hidden">
-
-     </form>
+</nav>
+<form action="{{ route('complete') }}" method="post">
+  @csrf
+  <div class="container">
+    <div class="row">
+      <div class="col-6 offset-6 form-group col-form-label info">
+        <label>件名</label>
+        <br>
+        {{ $inputs['title'] }}
+        <input type="hidden" name="title" value="{{ $inputs['title'] }}" class="form-control">
+      </div>
+        <div class="col-6 offset-6 form-group col-form-label info">
+        <label>本文</label>
+        <br>
+        {{ $inputs['text'] }}
+        <input type="hidden" name="text" value="{{ $inputs['text'] }}" class="form-control">
+      </div>
+      <div class="col-sm-6 offset-md-3 form-group col-form-label">
+        <button type="submit" name="action" value="back" class="form-control">
+            <a href="javascript:history.back();">
+                入力内容修正
+            </a>
+        </button>
+      </div>
+      <div class="col-sm-6 offset-md-3 form-group col-form-label">
+        <input type="submit" value="送信する" class="form-control">
+      </div>
+    </div>
+  </div>
+</form>
+     <style>
+       .info {
+         color: white;
+       }
+     </style>
 @endsection
