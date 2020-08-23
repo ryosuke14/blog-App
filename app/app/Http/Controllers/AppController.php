@@ -13,15 +13,20 @@ class AppController extends Controller
     }
 
 
-    public function contact(ContactRequest $request)
+    public function contact()
     {
-        $inputs = $request->all();
-        return view('contact', ['inputs' => $inputs]);
+        return view('contact');
     }
 
-    public function check(Request $request)
+    public function check(ContactRequest $request)
     {
-        return view('check');
+        $inputs = $request->all();
+        return view('check', ['inputs' => $inputs]);
+    }
+
+    public function complete(ContactRequest $request)
+    {
+        return view('complete');
     }
 
     public function blog(Request $request)
@@ -33,7 +38,4 @@ class AppController extends Controller
     {
         return view('blog.blogpost');
     }
-
-
-
-}
+} 
