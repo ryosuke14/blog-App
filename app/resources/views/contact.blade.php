@@ -44,7 +44,7 @@
         <div class="row">
             <div class="col-12">
                 <p class="contact">件名</p>
-                <textarea name="title" cols="50" rows="1" value=""></textarea>
+                <textarea name="title" cols="50" rows="1" value="">{{ old('title') }}</textarea>
                 @if ($errors->has('title'))
                 <p class="error-message">{{ $errors->first('title') }}</p>
                 @endif
@@ -52,7 +52,7 @@
            
             <div class="col-12">
                 <p class="contact">本文</p>
-                <textarea name="text" cols="50" rows="20" value=""></textarea>
+                <textarea name="text" cols="50" rows="20" value="">{{ old('text') }}</textarea>
                 @if ($errors->has('text'))
                     <p class="error-message">{{ $errors->first('text') }}</p>
                 @endif
