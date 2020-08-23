@@ -1,7 +1,7 @@
 @extends('layouts.base')
 
 @section('title')
-おっくんお政治チャンネルHOME
+おっくんお政治チャンネルHOME 
 @endsection
 
 @section('content')
@@ -33,7 +33,7 @@
             <a class="nav-link text-uppercase text-expanded" href="https://twitter.com/CQ5SXmczvr8BzkE">Twitter</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="">Blog</a>
+            <a class="nav-link text-uppercase text-expanded" href="{{ route('blog') }}">Blog</a>
           </li>
         </ul>
       </div>

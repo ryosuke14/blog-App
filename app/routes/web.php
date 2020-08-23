@@ -14,6 +14,21 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'AppController@index')->name('index');
-Route::get('/contact', 'AppController@contact')->name('contact');
+Route::get('/contact', 'AppController@contact2')->name('contact');
 Route::post('/check', 'AppController@check')->name('check');
 
+Route::get('/', 'AppController@index')->name('index');
+Route::get('/blog', 'AppController@blog')->name('blog');
+Route::get('/blogpost', 'AppController@blogpost')->name('blogpost');
+
+
+/*
+Route::get('/contact', function(){
+    return view('contact');
+});
+*/
+/*
+Route::get('/blog', function(){
+    return view('blog/index');
+});
+*/
