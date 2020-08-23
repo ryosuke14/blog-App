@@ -16,6 +16,8 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'AppController@index')->name('index');
 Route::get('/contact', 'AppController@contact')->name('contact');
 Route::post('/check', 'AppController@check')->name('check');
+Route::post('/complete', 'AppController@complete')->name('complete');
+
 
 Route::get('/', 'AppController@index')->name('index');
 Route::get('/blog', 'AppController@blog')->name('blog');
