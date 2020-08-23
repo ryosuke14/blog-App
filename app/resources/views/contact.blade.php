@@ -39,19 +39,27 @@
   </nav>
   <hr>
   <form action="{{ route('check') }}" method="post" style="text-align: center;">
+    @csrf
     <div class="container">
         <div class="row">
             <div class="col-12">
                 <p class="contact">件名</p>
-                <textarea name="title" cols="50" rows="1" value="{{ $inputs['title'] }}"></textarea>
+                <textarea name="title" cols="50" rows="1" value=""></textarea>
+                @if ($errors->has('title'))
+                <p class="error-message">{{ $errors->first('title') }}</p>
+                @endif
             </div>
+           
             <div class="col-12">
                 <p class="contact">本文</p>
-                <textarea name="text" cols="50" rows="20" value="{{ $inputs['text'] }}"></textarea>
+                <textarea name="text" cols="50" rows="20" value=""></textarea>
+                @if ($errors->has('text'))
+                    <p class="error-message">{{ $errors->first('text') }}</p>
+                @endif
             </div>
             <br>
             <div class="col-12">
-                <input type="submit" value="送信">
+                <input type="submit" value="確認する">
             </div>
         </div>
     </div>
@@ -60,6 +68,10 @@
   <style>
       .contact {
           color: white;
+      }
+      
+      .error-message {
+        color: red;
       }
   </style>
 
