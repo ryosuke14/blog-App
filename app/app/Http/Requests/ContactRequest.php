@@ -35,7 +35,7 @@ class ContactRequest extends FormRequest
             'title.required'  => '*件名を入力してください。',
             'title.max'       => '*件名は４０文字以内でお願いします。',
             'text.required'   => '*本文を入力してください。',
-            'text.max'       => '*本文は４０文字以内でお願いします。',
+            'text.max'       => '*本文は８００文字以内でお願いします。',
         ];
     }
 
