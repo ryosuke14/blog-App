@@ -33,6 +33,11 @@ class AppController extends Controller
         return view('complete');
     }
 
+    public function prepare()
+    {
+        return view('prepare');
+    }
+
     public function blog(Request $request)
     {
         return view('blog.index');
