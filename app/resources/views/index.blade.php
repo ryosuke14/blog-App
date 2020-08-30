@@ -33,7 +33,7 @@
             <a class="nav-link text-uppercase text-expanded" href="https://twitter.com/CQ5SXmczvr8BzkE">Twitter</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="{{ route('blog') }}">Blog</a>
+            <a class="nav-link text-uppercase text-expanded" href="{{ route('prepare') }}">Blog</a>
           </li>
         </ul>
       </div>
@@ -41,13 +41,11 @@
   </nav>
 
   <div class="container">
-    <h5 class="" style="color:#C0C0C0; line-height:2.0; text-align: center; padding-top: 30px; font-weight: bold;">
+    <p class="col-md-10 offset-md-1" style="font-size: 1rem; color:#C0C0C0; line-height:2.0; text-align: center; padding-top: 30px; font-weight: bold;">
       このチャンネルでは２０代の３人が政治や最新のニュースなどをできるだけわかりやすく噛み砕き、考察していきます。
-      <br>
       取り上げて欲しい話題などございましたらYouTube・Twitterへコメントをお願い致します！
-      <br>
-      これからもYouTube・Twitterでたくさん発信していくので応援をお願い致します！
-    </h5>
+      これからもYouTube・Twitterでたくさん発信していくので要望などございましたらお気軽にお問い合わせをお願い致します！
+    </p>
  </div>
 
 
@@ -64,7 +62,7 @@
           <p class="mb-3">政治や最新のニュースの正確な情報は、ただ待っているだけでは収集出来ない状況が今の日本だと思います。　このチャンネルを通じて多くの人へ正確な情報を伝えていきます！
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            <a class="btn btn-primary btn-xl" href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">YOUTUBEへGO!!</a>
           </div>
         </div>
       </div>
@@ -84,7 +82,7 @@
             発信して行きます！
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            <a class="btn btn-primary btn-xl" href="https://twitter.com/CQ5SXmczvr8BzkE">TWITTERへGO！!</a>
           </div>
         </div>
       </div>
@@ -104,7 +102,7 @@
           <p class="mb-3">政治や最新のニュースをもっと多角的に見る必要があると思っています。日頃、目にするニュースは偏った報道・ねじ曲がった事実は多く存在しる現状です。このチャンネルでは様々なニュースを多方面から考察して多くの人へ発信していこうと思います！
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+            <a class="btn btn-primary btn-xl" href="{{ route('prepare') }}">BlogへGO!!</a>
           </div>
         </div>
       </div>
