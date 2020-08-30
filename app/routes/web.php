@@ -20,6 +20,7 @@ Route::post('/complete', 'AppController@complete')->name('complete');
 
 
 Route::get('/', 'AppController@index')->name('index');
+Route::get('/prepare', 'AppController@prepare')->name('prepare');
 Route::get('/blog', 'AppController@blog')->name('blog');
 Route::get('/blogpost', 'AppController@blogpost')->name('blogpost');
 
