@@ -41,26 +41,28 @@
   @csrf
   <div class="container">
     <div class="row">
-      <div class="col-6 offset-6 form-group col-form-label info">
+      <div class="col-6 offset-3 form-group col-form-label info">
         <label>件名</label>
-        <br>
-        {{ $inputs['title'] }}
+        <div class="check">
+          {{ $inputs['title'] }}
+        </div>
         <input type="hidden" name="title" value="{{ $inputs['title'] }}" class="form-control">
       </div>
-        <div class="col-6 offset-6 form-group col-form-label info">
+        <div class="col-6 offset-3 form-group col-form-label info">
         <label>本文</label>
-        <br>
-        {{ $inputs['text'] }}
+        <div class="check">
+          {{ $inputs['text'] }}
+        </div>  
         <input type="hidden" name="text" value="{{ $inputs['text'] }}" class="form-control">
       </div>
-      <div class="col-sm-6 offset-md-3 form-group col-form-label">
+      <div class="col-md-6 offset-md-3 form-group col-form-label">
         <button type="submit" name="action" value="back" class="form-control">
             <a href="javascript:history.back();">
                 入力内容修正
             </a>
         </button>
       </div>
-      <div class="col-sm-6 offset-md-3 form-group col-form-label">
+      <div class="col-md-6 offset-md-3 form-group col-form-label">
         <input type="submit" value="送信する" class="form-control">
       </div>
     </div>
@@ -69,6 +71,10 @@
      <style>
        .info {
          color: white;
+       }
+
+       .check {
+         font-size: 1rem;
        }
      </style>
 @endsection
