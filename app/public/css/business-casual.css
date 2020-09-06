@@ -12,11 +12,6 @@ body {
   background-size: cover;
 }
 
-.mb-13 {
-  line-height: 1.75; color:white;
-}
-
-
 h1,
 h2,
 h3,
@@ -140,9 +135,6 @@ p {
     bottom: -2rem;
   }
 }
-
-
-
 
 @media (min-width: 1200px) {
   .intro .intro-text {
