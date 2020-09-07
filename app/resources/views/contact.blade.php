@@ -52,16 +52,16 @@
                   <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="ニックネーム">
               </div>
                 <p class="contact form-group col-md-4 offset-4">件名</p>
-                <input type="text" class="form-control col-md-4 offset-4" id="inputEmail4" name="title" cols="65" placeholder="件名" rows="1" value="">{{ old('title') }}
+                <input type="text" class="form-control col-md-4 offset-4" id="inputEmail4" name="title" cols="65" placeholder="件名" rows="1" value="">
                 @if ($errors->has('title'))
-                <p class="error-message">{{ $errors->first('title') }}</p>
+                <p class="contact error-message">{{ $errors->first('title') }}</p>
                 @endif
             </div>
             <div class="col-12">
                 <p class="contact">本文</p>
                 <textarea name="text" cols="65" rows="20" value="">{{ old('text') }}</textarea>
                 @if ($errors->has('text'))
-                    <p class="error-message">{{ $errors->first('text') }}</p>
+                    <p class="contact error-message">{{ $errors->first('text') }}</p>
                 @endif
             </div>
             <br>

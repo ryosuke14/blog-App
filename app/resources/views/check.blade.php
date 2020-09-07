@@ -37,10 +37,29 @@
       </div>
     </div>
 </nav>
+
+
 <form action="{{ route('complete') }}" method="post">
   @csrf
   <div class="container">
-    <div class="row">
+    <div class="row">      
+      <div class="col-6 offset-3 form-group col-form-label info">
+        <label>Email</label>
+        <div class="check">
+          {{ $inputs['email'] }}
+        </div>
+        <input type="hidden" name="email" value="{{ $inputs['email'] }}" class="form-control">
+      </div>
+
+      <div class="col-6 offset-3 form-group col-form-label info">
+        <label>ニックネーム</label>
+        <div class="check">
+          {{ $inputs['name'] }}
+        </div>
+        <input type="hidden" name="name" value="{{ $inputs['name'] }}" class="form-control">
+      </div>
+
+
       <div class="col-6 offset-3 form-group col-form-label info">
         <label>件名</label>
         <div class="check">
