@@ -43,8 +43,16 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-                <p class="contact">件名</p>
-                <textarea name="title" cols="65" rows="1" value="">{{ old('title') }}</textarea>
+              <div class="contact form-group col-md-4 offset-4">
+                <label for="inputEmail4">Email</label>
+                  <input type="email"　name="email" class="form-control" id="inputEmail4" placeholder="Email">
+              </div>
+              <div class="contact form-group col-md-4 offset-4">
+                <label for="inputPassword4">ニックネーム</label>
+                  <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="ニックネーム">
+              </div>
+                <p class="contact form-group col-md-4 offset-4">件名</p>
+                <input type="text" class="form-control col-md-4 offset-4" id="inputEmail4" name="title" cols="65" placeholder="件名" rows="1" value="">{{ old('title') }}
                 @if ($errors->has('title'))
                 <p class="error-message">{{ $errors->first('title') }}</p>
                 @endif
