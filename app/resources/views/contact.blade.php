@@ -43,9 +43,9 @@
     <div class="container">
         <div class="row">
             <div class="col-12">
-              <div class="contact form-group col-md-4 offset-4">
-                <label for="inputEmail4">Email</label>
-                  <input type="email"　name="email" class="form-control" id="inputEmail4" placeholder="Email">
+            <div class="contact form-group col-md-4 offset-4">
+                <label for="inputPassword4">mail</label>
+                  <input type="mail" name="mail" class="form-control" id="inputPassword4" placeholder="mail">
               </div>
               <div class="contact form-group col-md-4 offset-4">
                 <label for="inputPassword4">ニックネーム</label>

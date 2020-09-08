@@ -22,13 +22,13 @@ class AppController extends Controller
     public function check(Request $request)
     {
         $inputs = $request->all();
-        dd($inputs);
+        //dd($inputs);
         return view('check', ['inputs' => $inputs]);
     }
 
     public function complete(ContactRequest $request, Contact $contact)
     {
-        $contact->email = $request->email;
+        $contact->mail = $request->mail;
         $contact->name = $request->name;
         $contact->title = $request->title;
         $contact->text = $request->text;

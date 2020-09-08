@@ -18,12 +18,12 @@ Route::get('/contact', 'AppController@contact')->name('contact');
 Route::post('/check', 'AppController@check')->name('check');
 Route::post('/complete', 'AppController@complete')->name('complete');
 
-
 Route::get('/', 'AppController@index')->name('index');
 Route::get('/prepare', 'AppController@prepare')->name('prepare');
 Route::get('/blog', 'AppController@blog')->name('blog');
 Route::get('/blogpost', 'AppController@blogpost')->name('blogpost');
 
+//Route::POST('/complete','AppController@complete');
 
 /*
 Route::get('/contact', function(){

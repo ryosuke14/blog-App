@@ -38,20 +38,19 @@
     </div>
 </nav>
 
-
-<form action="{{ route('complete') }}" method="post">
+<form action="/complete" method ="post">
   @csrf
   <div class="container">
     <div class="row">      
-      <div class="col-6 offset-3 form-group col-form-label info">
-        <label>Email</label>
+      <div class="col-6 offset-3 form-group col-form-label info">      
+        <label>email</label>
         <div class="check">
-          {{ $inputs['email'] }}
+          {{ $inputs['mail'] }}
         </div>
-        <input type="hidden" name="email" value="{{ $inputs['email'] }}" class="form-control">
+        <input type="hidden" name="mail" value="{{ $inputs['mail'] }}" class="form-control">
       </div>
 
-      <div class="col-6 offset-3 form-group col-form-label info">
+      <div class="col-4 offset-3 form-group col-form-label info">
         <label>ニックネーム</label>
         <div class="check">
           {{ $inputs['name'] }}
