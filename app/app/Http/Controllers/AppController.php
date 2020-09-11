@@ -26,7 +26,7 @@ class AppController extends Controller
         return view('check', ['inputs' => $inputs]);
     }
 
-    public function complete(ContactRequest $request, Contact $contact)
+    public function complete(Request $request, Contact $contact)
     {
         $contact->mail = $request->mail;
         $contact->name = $request->name;

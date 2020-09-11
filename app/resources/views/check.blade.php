@@ -38,7 +38,7 @@
     </div>
 </nav>
 
-<form action="/complete" method ="post">
+<form action="{{ route('complete') }}" method ="post">
   @csrf
   <div class="container">
     <div class="row">      
