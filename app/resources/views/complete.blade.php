@@ -31,7 +31,7 @@
   </nav>
   <hr>
   <p class="complete">{{('お問い合わせを受け付けました！')}}</p>
-  
+  <p class="complete"><a href="{{ route('index') }}">homeへ</a> </p>
   <hr>
   <style>
       .complete {
