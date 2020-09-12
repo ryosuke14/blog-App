@@ -22,16 +22,15 @@ class AppController extends Controller
         return view('contact');
     }
 
-    public function check(Request $request)
+    public function check(ContactRequest $request)
     {
-        $inputs = $request->all();
-        //dd($inputs);
+        $inputs = $request->input();
         return view('check', ['inputs' => $inputs]);
     }
 
-    public function complete(Request $request, Contact $contact)
+    public function complete(ContactRequest $request, Contact $contact)
     {
-        $contact->mail = $request->mail;
+        $contact->email = $request->email;
         $contact->name = $request->name;
         $contact->title = $request->title;
         $contact->text = $request->text;
@@ -39,13 +38,13 @@ class AppController extends Controller
 
         $to = [
             [
-                'email' => $contact->mail, 
+                'email' => $contact->email, 
                 'name' => 'お問合せありがとうございます',
             ]
-        ];    
+        ];
+            
         Mail::to($to)->send(new SendMail());
         return view('complete');
-
     }
 
     public function prepare()
