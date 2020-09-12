@@ -42,21 +42,27 @@
     @csrf
     <div class="container">
         <div class="row">
-            <div class="col-12">
-            <div class="contact form-group col-md-4 offset-4">
-                <label for="inputPassword4">mail</label>
-                  <input type="mail" name="mail" class="form-control" id="inputPassword4" placeholder="mail">
+              <div class="contact form-group col-6 offset-3">
+                  <label for="inputPassword4">email</label>
+                  <input type="email" name="email" class="form-control" id="inputPassword4" placeholder="email">
+                  @if ($errors->has('email'))
+                  <p class="contact error-message">{{ $errors->first('email') }}</p>
+                @endif
               </div>
-              <div class="contact form-group col-md-4 offset-4">
+              <div class="contact form-group col-6 offset-3">
                 <label for="inputPassword4">ニックネーム</label>
-                  <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="ニックネーム">
+                <input type="text" name="name" class="form-control" id="inputPassword4" placeholder="ニックネーム">
+                @if ($errors->has('name'))
+                <p class="contact error-message">{{ $errors->first('name') }}</p>
+                @endif
               </div>
-                <p class="contact form-group col-md-4 offset-4">件名</p>
-                <input type="text" class="form-control col-md-4 offset-4" id="inputEmail4" name="title" cols="65" placeholder="件名" rows="1" value="">
+              <div class="contact form-group col-6 offset-3">
+                <label for="inputPassword4">件名</label>
+                <input type="text" class="form-control" id="inputEmail4" name="title" cols="65" placeholder="件名" rows="1" value="">
                 @if ($errors->has('title'))
                 <p class="contact error-message">{{ $errors->first('title') }}</p>
                 @endif
-            </div>
+              </div>
             <div class="col-12">
                 <p class="contact">本文</p>
                 <textarea name="text" cols="65" rows="20" value="">{{ old('text') }}</textarea>

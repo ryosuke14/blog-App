@@ -45,9 +45,9 @@
       <div class="col-6 offset-3 form-group col-form-label info">      
         <label>email</label>
         <div class="check">
-          {{ $inputs['mail'] }}
+          {{ $inputs['email'] }}
         </div>
-        <input type="hidden" name="mail" value="{{ $inputs['mail'] }}" class="form-control">
+        <input type="hidden" name="email" value="{{ $inputs['email'] }}" class="form-control">
       </div>
 
       <div class="col-4 offset-3 form-group col-form-label info">
