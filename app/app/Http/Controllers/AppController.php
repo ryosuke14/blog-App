@@ -5,6 +5,9 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Http\Requests\ContactRequest;
 use App\Contact;
+use Illuminate\Support\Facades\Mail;
+use App\Mail\SendMail;
+
 
 class AppController extends Controller
 {
@@ -33,7 +36,16 @@ class AppController extends Controller
         $contact->title = $request->title;
         $contact->text = $request->text;
         $contact->save();
+
+        $to = [
+            [
+                'email' => $contact->mail, 
+                'name' => 'お問合せありがとうございます',
+            ]
+        ];    
+        Mail::to($to)->send(new SendMail());
         return view('complete');
+
     }
 
     public function prepare()
