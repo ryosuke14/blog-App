@@ -10,7 +10,7 @@
     color: #ff6666;
   }
   #button {
-    width: 150px;
+    width: 260px;
     text-align: center;
   }
   #button a {
@@ -35,13 +35,13 @@
 <div> {{ $contact->text }} </div>
 
 <p id="button">
-  <a href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">おッくんチャンネル　YouTubeへ</a>
+  <a href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">おっくんチャンネルYouTube</a>
 </p>
 <p id="button">
-  <a href="https://twitter.com/CQ5SXmczvr8BzkE">おッくんチャンネル　Twitterへ</a>
+  <a href="https://twitter.com/CQ5SXmczvr8BzkE">おっくんチャンネルTwitter</a>
 </p>
 <p id="button">
-  <a href="">おッくんチャンネル　ブログへ</a>
+  <a href="">おっくんチャンネルブログ</a>
 </p>
 
 </body>
