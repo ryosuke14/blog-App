@@ -43,7 +43,7 @@ class AppController extends Controller
             ]
         ];
             
-        Mail::to($to)->send(new SendMail());
+        Mail::to($to)->send(new SendMail($contact));
         return view('complete');
     }
 

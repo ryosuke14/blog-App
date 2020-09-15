@@ -28,11 +28,11 @@
   }
 </style>
 <body>
-<p></p>
+<p>{{ $contact->name }} 様</p>
 
 <p>お問合せありがとうございます。</p>
 <p>以下の内容でお問合せを受け付けました。</p>
-<div> </div>
+<div> {{ $contact->text }} </div>
 
 <p id="button">
   <a href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">おッくんチャンネル　YouTubeへ</a>

@@ -6,6 +6,8 @@ use Illuminate\Bus\Queueable;
 use Illuminate\Contracts\Queue\ShouldQueue;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
+use App\Http\Controllers\AppController;
+
 
 class SendMail extends Mailable
 {
@@ -16,9 +18,9 @@ class SendMail extends Mailable
      *
      * @return void
      */
-    public function __construct()
+    public function __construct($contact)
     {
-        //
+        $this->contact = $contact;
     }
 
     /**
@@ -30,6 +32,7 @@ class SendMail extends Mailable
     {
         return $this->view('mail.thanks')
         ->from('okkunch@gmail.com','Test')
-        ->subject('お問合せありがとうございます。');
+        ->subject('お問合せありがとうございます.')
+        ->with(['contact' => $this->contact]);
     }
 }
