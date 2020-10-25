@@ -27,10 +27,10 @@
             </a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">youtube</a>
+            <a class="nav-link text-uppercase text-expanded" href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber"　target="_blank">youtube</a>
           </li>
           <li class="nav-item px-lg-4">
-            <a class="nav-link text-uppercase text-expanded" href="https://twitter.com/CQ5SXmczvr8BzkE">Twitter</a>
+            <a class="nav-link text-uppercase text-expanded" href="https://twitter.com/CQ5SXmczvr8BzkE"　target="_blank">Twitter</a>
           </li>
           <li class="nav-item px-lg-4">
             <a class="nav-link text-uppercase text-expanded" href="{{ route('prepare') }}">Blog</a>
@@ -62,7 +62,7 @@
           <p class="mb-3">政治や最新のニュースの正確な情報は、ただ待っているだけでは収集出来ない状況が今の日本だと思います。　このチャンネルを通じて多くの人へ正確な情報を伝えていきます！
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber">YOUTUBEへGO!!</a>
+            <a class="btn btn-primary btn-xl" href="https://www.youtube.com/channel/UCPxnT20QYztJkGSmE1liRSA?view_as=subscriber" target="_blank">YOUTUBEへGO!!</a>
           </div>
         </div>
       </div>
@@ -82,7 +82,7 @@
             発信して行きます！
           </p>
           <div class="intro-button mx-auto">
-            <a class="btn btn-primary btn-xl" href="https://twitter.com/CQ5SXmczvr8BzkE">TWITTERへGO！!</a>
+            <a class="btn btn-primary btn-xl" href="https://twitter.com/CQ5SXmczvr8BzkE"　target="_blank">TWITTERへGO！!</a>
           </div>
         </div>
       </div>
