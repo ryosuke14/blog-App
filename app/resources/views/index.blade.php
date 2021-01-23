@@ -6,7 +6,6 @@
 
 @section('content')
 <body>
-
   <h1 class="site-heading text-center text-white d-none d-lg-block">
     <span class="site-heading-upper text-primary mb-3">２０代の３人が作り上げる政治に特化したチャンネル!!</span>
     <span class="site-heading-lower">おっくんの政治チャンネル</span>
